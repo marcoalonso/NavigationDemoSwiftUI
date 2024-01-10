@@ -17,6 +17,7 @@
 		6C291E332B4F05AB00C052F5 /* SimpleNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C291E322B4F05AB00C052F5 /* SimpleNavigationView.swift */; };
 		6C291E352B4F05F600C052F5 /* VistaDetalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C291E342B4F05F600C052F5 /* VistaDetalleView.swift */; };
 		6C291E372B4F072E00C052F5 /* ImageNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C291E362B4F072E00C052F5 /* ImageNavigationView.swift */; };
+		6C291E392B4F119B00C052F5 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C291E382B4F119B00C052F5 /* SheetNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6C291E322B4F05AB00C052F5 /* SimpleNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationView.swift; sourceTree = "<group>"; };
 		6C291E342B4F05F600C052F5 /* VistaDetalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDetalleView.swift; sourceTree = "<group>"; };
 		6C291E362B4F072E00C052F5 /* ImageNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNavigationView.swift; sourceTree = "<group>"; };
+		6C291E382B4F119B00C052F5 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				6C291E322B4F05AB00C052F5 /* SimpleNavigationView.swift */,
 				6C291E342B4F05F600C052F5 /* VistaDetalleView.swift */,
 				6C291E362B4F072E00C052F5 /* ImageNavigationView.swift */,
+				6C291E382B4F119B00C052F5 /* SheetNavigationView.swift */,
 			);
 			path = NavigationGuide;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				6C291E2F2B4F02BF00C052F5 /* ColorDetail.swift in Sources */,
 				6C291E1F2B4F006200C052F5 /* NavigationGuideApp.swift in Sources */,
 				6C291E312B4F048B00C052F5 /* MainTabView.swift in Sources */,
+				6C291E392B4F119B00C052F5 /* SheetNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

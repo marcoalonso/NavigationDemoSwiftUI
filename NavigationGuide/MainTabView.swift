@@ -26,9 +26,14 @@ struct MainTabView: View {
             
             ImageNavigationView()
                 .tabItem {
-                    Label("Nav Image", systemImage: "person.crop.circle.fill")
+                    Label("Nav Image", systemImage: "rectangle.portrait.and.arrow.right.fill")
                 }
-        }
+            
+            SheetNavigationView()
+                .tabItem {
+                    Label("Sheet", systemImage: "arrow.up.square.fill")
+                }
+        }.tint(.black)
 
     }
 }
