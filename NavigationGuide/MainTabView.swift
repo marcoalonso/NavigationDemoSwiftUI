@@ -19,10 +19,10 @@ struct MainTabView: View {
                 .tabItem {
                     Label("NavDest", systemImage: "wand.and.stars")
                 }
-            SimpleNavigationView()
-                .tabItem {
-                    Label("Simple Nav", systemImage: "person.crop.circle.fill")
-                }
+            //SimpleNavigationView()
+              //  .tabItem {
+                //    Label("Simple Nav", systemImage: "person.crop.circle.fill")
+               // }
             
             ImageNavigationView()
                 .tabItem {
@@ -32,6 +32,11 @@ struct MainTabView: View {
             SheetNavigationView()
                 .tabItem {
                     Label("Sheet", systemImage: "arrow.up.square.fill")
+                }
+            
+            NavigationStackView()
+                .tabItem {
+                    Label("Nav Stack", systemImage: "arrow.up.square.fill")
                 }
         }.tint(.black)
 
